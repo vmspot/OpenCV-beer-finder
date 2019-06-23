@@ -25,7 +25,7 @@ while(True):
         cv2.rectangle(frame, (x, y), (end_cord_x, end_cord_y), color, stroke)
 
     # Display the color frame with surrounding rectangle
-    cv2.imshow('frame',frame)
+    cv2.imshow('beer-hunter',frame)
     #cv2.imshow('gray',gray)
     if cv2.waitKey(20) & 0xFF == ord('q'):
         break
